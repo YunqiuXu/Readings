@@ -10,7 +10,7 @@
   + reduce number of parameters
   + Can be trained as similar steps in ResNet
 + Archetecture: 
-  + Difference bwtween ResNet and DenseNet: 
+  + Difference bwtween ResNet and DenseNet: 
     + ResNet adds the input features to the output features through the residual path: $x(l) = H_l(l-1) + x_{l-1}$
     + DenseNet uses a densely connected path to concatenate the input features with the output features : $x(l) = H_l([x_0,...,x_{l-1}])$
     + This enables each micro-block to receive raw information from all previous micro-blocks

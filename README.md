@@ -1,5 +1,5 @@
 # Paper Notes
-+ Format : Arxiv Index - Name - Time
++ Enjoy yourself :D
 
 ## 1. 1608.06993 - [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
 + One of CVPR2017 best paper, a new CNN archetecture
@@ -9,6 +9,9 @@
   + encourage feature reuse
   + reduce number of parameters
   + Can be trained as similar steps in ResNet
++ Limitations: from [DPN](https://arxiv.org/abs/1707.01629)
+  + Width of the densely connected path linearly increases as the depth rises
+  + This may cause the number of parameters to grow quadratically compared with the residual networks if the implementation is not specifically optimized
 + Archetecture: 
   + Difference bwtween ResNet and DenseNet: 
     + ResNet adds the input features to the output features through the residual path: $x(l) = H_l(l-1) + x_{l-1}$
@@ -102,7 +105,18 @@
     + Effective feature reusage and reexploitation
     + Higher parameter efficiency, lower computational cost and lower memory consumption
     + Friendly for optimization
-+ The advantages and limitations of ResNet and DenseNet
++ ResNet, DenseNet and HORNN
+  + Terminologies:
+    + t: t-th step
+    + k: the index of current step
+    + F: Feature extracting function, inputs hidden state, outputs extracted information
+    + G: Transformation function, transforms gathered information to current hidden state
+  + Observations:
+    + If for all k, F and G are shared $\rightarrow$ ResNet and DenseNet can be seen as HORNN
+    + If for all k,t, F is shared $\rightarrow$ ResNet can be seen as DenseNet
++ DPN
+  + It will be easier to understand via codes, although it's still in progress: https://github.com/cypw/DPNs
+---
 
 ## 5. 1506.01497 - [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
 + Related readings
@@ -117,4 +131,6 @@
 ## 8. 1704.03414 - [A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection](https://arxiv.org/abs/1704.03414)
 
 ## 9. 1703.06870 - [Mask R-CNN](https://arxiv.org/abs/1703.06870)
+
+## 10. 1612.03144 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
 

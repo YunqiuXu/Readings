@@ -9,16 +9,17 @@
   + encourage feature reuse
   + reduce number of parameters
   + Can be trained as similar steps in ResNet
-+ Archetecture: http://cvmart.net/community/article/detail/93
-  + 不同于 ResNet 将输出与输入相加，形成一个残差结构，DenseNet 将输出与输入相并联，实现每一层都能直接得到之前所有层的输出
-    + 为了进行特征复用，在跨层连接时使用的是在特征维度上的 Concatenate 操作，而不是 Element-wise Addition 操作。
-    + 不需要Elewise-wise操作，因此在每个单元结束时不需要1x1卷积重构维度
-  + 采用 Pre-activation 的策略来设计单元，将 BN 操作从主支上移到分支之前, i.e BN->ReLU->1x1Conv->BN->ReLU->3x3Conv
-  + 网络中每层都接受前面所有层的特征作为输入, 为避免特征维度增长过快, 在进行下采样之前先用一个卷积层将特征维度压缩一半
-  + 增长率k(每个单元模块最后3x3的卷积核的数量)的设置. 
-    + 每个单元模块最后是以 Concatenate 的方式来进行连接的，因此每经过一个单元模块，下一层的特征维度就会增长 k
-    + k越大意味着在网络中流通的信息也越大，相应地网络的能力也越强，但是整个模型的尺寸和计算量也会变大
-    + 本文中使用了 k=32 和 k=48 两种设置
++ Archetecture: 
+  + Difference bwtween ResNet and DenseNet: 
+    + ResNet adds the input features to the output features through the residual path: $x(l) = H_l(l-1) + x_{l-1}$
+    + DenseNet uses a densely connected path to concatenate the input features with the output features : $x(l) = H_l([x_0,...,x_{l-1}])$
+    + This enables each micro-block to receive raw information from all previous micro-blocks
+  + Preactivation, i.e BN->ReLU->1x1Conv->BN->ReLU->3x3Conv
+  + To make pooling easier(the dimensions may increase too fast), halve feature dimension using conv before pooling
+  + Growth rate k(the number of 3x3 kernels after each part):
+    + After each part, the dimension of next part will increase by k
+    + Larger k means more information will be accessed, while the computational complexity will be increased
+    + In this paper k = 32/48
 + Implementation: 
   + Original: https://github.com/liuzhuang13/DenseNet
   + PyTorch: https://github.com/gpleiss/efficient_densenet_pytorch
@@ -52,7 +53,6 @@
       + preserve the spatial information received from the CNN
       + reduce the parameters
     + model the polygon with a two-layer ConvLSTM with kernel size of 3x3 and 16 channels, which outputs a vertex at each time step
-    + 
     + formulate the vertex prediction as a classification task.
 
 ---
@@ -95,7 +95,14 @@
 ---
 
 ## 4. 1707.01629 - [Dual Path Networks](https://arxiv.org/abs/1707.01629)
-+ 
++ Championship of ImageNet 2017(Object localization for 1000 categories) 
+  + Enjoy the benefits of ResNet and DenseNet, bridge the densely connected networks with HORNN
+  + Shares common features while maintaining the flexibility to explore new features through dual path architectures
+  + Advantages
+    + Effective feature reusage and reexploitation
+    + Higher parameter efficiency, lower computational cost and lower memory consumption
+    + Friendly for optimization
++ The advantages and limitations of ResNet and DenseNet
 
 ## 5. 1506.01497 - [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
 + Related readings

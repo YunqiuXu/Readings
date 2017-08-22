@@ -123,8 +123,66 @@
   + 1311.2524 - [Rich feature hierarchies for accurate object detection and semantic segmentation (RCNN)](https://arxiv.org/abs/1311.2524)
   + 1504.08083 - [Fast RCNN](https://arxiv.org/abs/1504.08083)
   + 1702.02138 - [An Implementation of Faster RCNN with Study for Region Sampling](https://arxiv.org/abs/1702.02138)
++ RCNN: 
+    + Input image
+    + Extract ROI(about 2000) from a proposal method : selective search
+    + For each proposal, get features : CNN
+    + Classification : SVM + Bbox regression
++ Fast RCNN: ROI pooling
+    + Extract features from input images : CNN 
+    + Get ROI: projected region proposals
+    + ROI pooling: 
+        + Layer input: feature map
+        + Layer output: rois(rectangular vectors)
+        + Cut each proposal as MxN parts, perform max pooling for each part
+        + In this way we can get fixed number of features from each rigion
+    + Classification & Bbox Regression: combined as a multi-task model
++ Faster RCNN: RPN
+    + Extract features from input images : CNN 
+    + Get ROI proposals from RPN
+        + Predict proposals from features
+        + RPN has classification and bbox regression as well, but rougher
+        + Takes image features as input and outputs a set of rectangular object proposals(anchor), each with an objectness score
+    + Send proposal and features to ROI pooling
+    + Make final classification and bbox regression
 
 ## 6. [Robust Hand Detection in Vehicles](http://ieeexplore.ieee.org/document/7899695/)
++ Modified Faster RCNN
+    + Multiple scale Faster-RCNN
+    + Weight normalization
+    + Add new layer
++ Change 1 : Multiple scale Faster-RCNN
+    + Combine both global and local features --> enhance hand detecting in an image
+    + Collect features not only conv5, but also conv3 and conv4, then incorporate them
+    + Implementation: 
+        + For conv3, conv4, conv5, each conv is only followed with ReLU, remove Max-pooling layer.
+        + Take their output as the input of 3 corresponding ROI pooling layers and normalization layers
+        + Concat and shrink normalization layers as input of fc layers
+        + roi pooling in fc layers: make prediction of class and position
++ Change 2: Weight normalization
+    + Features in shallower layers: larger-scaled values
+    + Features in deeper layers: smaller-scaled values
+    + To combine the features of 3 conv layers, we need to normalize them
+    + Implementation:
+        + Put each feature into normalization layer(see the equations)
+        + Each pixel xi is normalized, then multiply scaling factor ri
+        + Use backpropagation to get ri in training step, we need to build loop here
+        + After normalization, concate the layers
++ Change 3: Add new layer
+    + Each RPN needs a normalization layer
+    + Add two more ROI pooling layers in detector part
+    + Each ROI pooling layer needs a normalization layer
+    + After each concatenation(2 positions in total), we need a 1*1 conv layer
++ Some details
+    + For RPN:
+        + normalize each to_be_normalized layer
+        + concat 3 normalized layers
+        + change the dimension using 1 * 1 conv
+    + For ROI pooling:
+        + put each conv output into its ROI pooling (so there should be 3 ROI pooling layers)
+        + normalize each layer
+        + concat them
+        + change the dimension using 1 * 1 conv
 
 ## 7. 1612.08242 - [YOLO9000 Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
 

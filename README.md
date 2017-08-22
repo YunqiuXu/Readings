@@ -1,8 +1,27 @@
 # Paper Notes
 + Format : Arxiv Index - Name - Time
 
-## 1. 
-
+## 1. 1608.06993 - [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) - 20170819
++ One of CVPR2017 best paper, a new CNN archetecture
++ Advantages:
+  + Alleviate gradient vanishing
+  + strengthen feature propagation
+  + encourage feature reuse
+  + reduce number of parameters
+  + Can be trained as similar steps in ResNet
++ Archetecture: http://cvmart.net/community/article/detail/93
+  + 为了进行特征复用，在跨层连接时使用的是在特征维度上的 Concatenate 操作，而不是 Element-wise Addition 操作。
+  + 不需要Elewise-wise操作，因此在每个单元结束时不需要1x1卷积重构维度
+  + 采用 Pre-activation 的策略来设计单元，将 BN 操作从主支上移到分支之前, i.e BN->ReLU->1x1Conv->BN->ReLU->3x3Conv
+  + 网络中每层都接受前面所有层的特征作为输入, 为避免特征维度增长过快, 在进行下采样之前先用一个卷积层将特征维度压缩一半
+  + 增长率k(每个单元模块最后3x3的卷积核的数量)的设置. 
+    + 每个单元模块最后是以 Concatenate 的方式来进行连接的，因此每经过一个单元模块，下一层的特征维度就会增长 k
+    + k越大意味着在网络中流通的信息也越大，相应地网络的能力也越强，但是整个模型的尺寸和计算量也会变大
+    + 本文中使用了 k=32 和 k=48 两种设置
++ Implementation: 
+  + Original: https://github.com/liuzhuang13/DenseNet
+  + PyTorch: https://github.com/gpleiss/efficient_densenet_pytorch
+  + Tensorflow: https://github.com/YixuanLi/densenet-tensorflow
 ---
 
 ## 2. 1704.05548 - [Annotating Object Instances with a Polygon-RNN](https://arxiv.org/abs/1704.05548) - 20170819

@@ -2,6 +2,7 @@
 + Enjoy yourself :D
 
 ## 1. 1608.06993 - [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
+&hearts; DL , CV , CNN, Recognition
 + One of CVPR2017 best paper, a new CNN archetecture
 + Advantages:
   + Alleviate gradient vanishing
@@ -30,6 +31,7 @@
 ---
 
 ## 2. 1704.05548 - [Annotating Object Instances with a Polygon-RNN](https://arxiv.org/abs/1704.05548)
+&hearts; DL , CV , RNN, Annotation
 + One of CVPR2017 best paper, an approach for semi-automatic annotation of object instances
 + Cast annotation as polygon prediction task $\rightarrow$ Polygon RNN
 + Why semi-automic
@@ -61,6 +63,7 @@
 ---
 
 ## 3. 1512.03385 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+&hearts; DL , CV , CNN, Recognition
 + These days I'm trying to perform hand detection via faster R-CNN, current base model is VGG16, the performance can be improved if I replace it with ResNet
 + ResNet152(ImageNet 2015 + CVPR 2016) is a very deep model and there has been a lot of related notes. The networks are easier to optimize, and can gain accuracy from considerably increased depth. 
 + Problems of deeper network
@@ -98,6 +101,7 @@
 ---
 
 ## 4. 1707.01629 - [Dual Path Networks](https://arxiv.org/abs/1707.01629)
+&hearts; DL , CV , CNN, Recognition
 + Championship of ImageNet 2017(Object localization for 1000 categories) 
   + Enjoy the benefits of ResNet and DenseNet, bridge the densely connected networks with HORNN
   + Shares common features while maintaining the flexibility to explore new features through dual path architectures
@@ -119,6 +123,7 @@
 ---
 
 ## 5. 1506.01497 - [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
+&hearts; DL , CV , RCNN, Object Detection
 + Related readings
   + 1311.2524 - [Rich feature hierarchies for accurate object detection and semantic segmentation (RCNN)](https://arxiv.org/abs/1311.2524)
   + 1504.08083 - [Fast RCNN](https://arxiv.org/abs/1504.08083)
@@ -147,6 +152,7 @@
     + Make final classification and bbox regression
 
 ## 6. [Robust Hand Detection in Vehicles](http://ieeexplore.ieee.org/document/7899695/)
+&hearts; DL , CV , RCNN, Object Detection
 + Modified Faster RCNN
     + Multiple scale Faster-RCNN
     + Weight normalization
@@ -185,10 +191,51 @@
         + change the dimension using 1 * 1 conv
 
 ## 7. 1612.08242 - [YOLO9000 Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
+&hearts; DL , CV , YOLO, Object Detection
 
 ## 8. 1704.03414 - [A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection](https://arxiv.org/abs/1704.03414)
 
 ## 9. 1703.06870 - [Mask R-CNN](https://arxiv.org/abs/1703.06870)
+&hearts; DL , CV , RCNN, Object Detection
++ Extend Faster RCNN by adding a branch for predicting segmentation masks for each ROI, in parallel with existing branch for classification and bbox regression
++ Review of Faster RCNN
+    + Two stages
+        + Get candidate object bboxes from RPN
+        + Extract features using RolPool from each candidate box
+        + Finally perform classification and bbox regression.
+    + The features used by both stages can be shared for faster inference
+    + Faster-RCNN is not designed for pixel-to-pixel alignment
+        + RoiPool performs coarse spatial quantization for feature extraction
+        + How to fix: change it to RoiAlign which is quantization-free and can faithfully preserves exact spatial locations
++ Mask R-CNN
+    + Two stages
+        + Similar to faster RCNN in the first stage(RPN)
+        + When predicting the class and box offset, Mask R-CNN also outputs a binary mask(third branch) for each RoI
+    + $L = L_{cls} + L_{box} + L_{mask}$
+        + $L_{mask}$ uses per-pixel sigmoid instead of softmax
+        + For an ROI associated with ground-truch class k, $L_{mask}$ is only defined on k-th mask
+        + Other mask outputs are irrelevent $\rightarrow$ we can generate masks for each class without competition among classes
+        + Decouple mask and class prediction
+    + Mask branch: 
+        + Use a FCN(full collected network) to predics m*m mask from each ROI
+        + Need ROI features to be well aligned $\rightarrow$ RoIAlign
+    + RoIAlign: 
+        + In RoIPool, quantization leads to misalignments
+            + Does not affect classification
+            + Affects pixel-accurate prediction
+        + In RoIAlign, we avoid quantization: round(x / 16) $\rightarrow$ x / 16
+
+    + Archetecture:
+        + Extend two kinds of backbone heads:
+            + ResNet
+            + FPN(feature pyramid network)
+
++ Mask RCNN is easy to generalize
+    + Instance segmentation
+    + Bbox object detection
+    + Person keypoint detection
+        + Model a keypoint’s location as a one-hot m * m mask, where onlu a single pixel is labeled as foreground
+        + Adopt Mask R-CNN to predict K masks, one for each of K keypoint types (e.g., left shoulder, right elbow).
 
 ## 10. 1612.03144 - [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)
 

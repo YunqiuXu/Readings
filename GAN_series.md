@@ -56,7 +56,7 @@
         + 平均给出结果 --> 有种ensemble learning的感觉
 + 本文适合生成色彩丰富的图片, 对低饱和度数据效果不好
 
-##５．ＣycleGAN | DiscoGAN | DualGAN
+## 5. ＣycleGAN | DiscoGAN | DualGAN
 + 不需要成对数据, 只需要两类图片, 例如 folder_A(冬天) --> folder_B(夏天)
 + 和一般GAN一个生成器一个判别器不同, CycleGAN有两个生成器和判别器
     + 生成器G_A2B: 将A类图片转换成B类图片

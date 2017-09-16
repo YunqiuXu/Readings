@@ -63,7 +63,7 @@
     + 生成器G_B2A: 将B类图片转换成A类图片
     + 两个判别器D_a, D_b : 分辨两类中的真实图片和生成图片
 + 循环损失:
-$$L_{cyc} (G_{A2B}, G_{B2A}, A,B) = E_{x \in A}[||G_{B2A}(G_{A2B}(x)) - x||_1] + E_{y \in B}[||G_{A2B}(G_{B2A}(y)) - y||_1]$$
+$$L_{cyc} (G_{A2B}, G_{B2A}, A,B) = E_{x \in A}[\Vert G_{B2A}(G_{A2B}(x)) - x \Vert_1] + E_{y \in B}[\Vert G_{A2B}(G_{B2A}(y)) - y\Vert_1]$$
 + 循环损失作为总损失的一部分:
 $$L(G_{A2B}, G_{B2A}, A,B) = L_G(G_{A2B}, D_B, A,B) + L_G(G_{B2A}, D_A, B,A) + \lambda L_{cyc} (G_{A2B}, G_{B2A}, A,B)$$
 + 训练细节:

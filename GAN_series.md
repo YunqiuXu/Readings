@@ -56,16 +56,16 @@
         + 平均给出结果 --> 有种ensemble learning的感觉
 + 本文适合生成色彩丰富的图片, 对低饱和度数据效果不好
 
-## 5. ＣycleGAN | DiscoGAN | DualGAN
+## 5. CycleGAN | DiscoGAN | DualGAN
 + 不需要成对数据, 只需要两类图片, 例如 folder_A(冬天) --> folder_B(夏天)
 + 和一般GAN一个生成器一个判别器不同, CycleGAN有两个生成器和判别器
     + 生成器G_A2B: 将A类图片转换成B类图片
     + 生成器G_B2A: 将B类图片转换成A类图片
     + 两个判别器D_a, D_b : 分辨两类中的真实图片和生成图片
 + 循环损失:
-$$L_cyc (G_{A2B}, G_{B2A}, A,B) = E_{x \in A}[||G_{B2A}(G_{A2B}(x)) - x||_1] + E_{y \in B}[||G_{A2B}(G_{B2A}(y)) - y||_1]$$
+$$L_{cyc} (G_{A2B}, G_{B2A}, A,B) = E_{x \in A}[||G_{B2A}(G_{A2B}(x)) - x||_1] + E_{y \in B}[||G_{A2B}(G_{B2A}(y)) - y||_1]$$
 + 循环损失作为总损失的一部分:
-$$L(G_{A2B}, G_{B2A}, A,B) = L_G(G_{A2B}, D_B, A,B) + L_G(G_{B2A}, D_A, B,A) + \lambdaL_cyc (G_{A2B}, G_{B2A}, A,B)$$
+$$L(G_{A2B}, G_{B2A}, A,B) = L_G(G_{A2B}, D_B, A,B) + L_G(G_{B2A}, D_A, B,A) + \lambda L_{cyc} (G_{A2B}, G_{B2A}, A,B)$$
 + 训练细节:
     + 训练比配对的GAN要慢, batch size为1的情况下，每个epoch训1000张图，差不多要近100个epoch才能得到比较能够接受的结果
     + 自适应学习率的Adam并不适合GAN --> GAN中损失函数并不代表训练进度, 无法反映结果优劣

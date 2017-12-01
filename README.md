@@ -7,6 +7,7 @@
 
 + [1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
 + [1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
++ [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
 + [1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)
 + [1703.06907 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf)

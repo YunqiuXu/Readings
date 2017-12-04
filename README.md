@@ -15,6 +15,7 @@
 + [1703.09327 - DART- Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)
 + [1707.02747 - Robust Imitation of Diverse Behaviors](https://github.com/YunqiuXu/Readings/blob/master/1707.02747%20-%20Robust%20Imitation%20of%20Diverse%20Behaviors.pdf)
++ [1707.03374 - Imitation from Observation- Learning to Imitate Behaviors from Raw Video via Context Translation](https://github.com/YunqiuXu/Readings/blob/master/1707.03374%20-%20Imitation%20from%20Observation-%20Learning%20to%20Imitate%20Behaviors%20from%20Raw%20Video%20via%20Context%20Translation.pdf)
 + [1707.05300 - Reverse Curriculum Generation for Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1707.05300%20-%20Reverse%20Curriculum%20Generation%20for%20Reinforcement%20Learning.pdf)
 + [1709.04905 - One-Shot Visual Imitation Learning via Meta-Learning](https://github.com/YunqiuXu/Readings/blob/master/1709.04905%20-%20One-Shot%20Visual%20Imitation%20Learning%20via%20Meta-Learning.pdf)
 + [1710.02298 - Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1710.02298%20-%20Rainbow:%20Combining%20Improvements%20in%20Deep%20Reinforcement%20Learning.pdf)

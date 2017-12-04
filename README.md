@@ -19,6 +19,7 @@
 + [1707.05300 - Reverse Curriculum Generation for Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1707.05300%20-%20Reverse%20Curriculum%20Generation%20for%20Reinforcement%20Learning.pdf)
 + [1709.04905 - One-Shot Visual Imitation Learning via Meta-Learning](https://github.com/YunqiuXu/Readings/blob/master/1709.04905%20-%20One-Shot%20Visual%20Imitation%20Learning%20via%20Meta-Learning.pdf)
 + [1710.02298 - Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1710.02298%20-%20Rainbow:%20Combining%20Improvements%20in%20Deep%20Reinforcement%20Learning.pdf)
++ [1710.09767 - Meta Learning Shared Hierarchies](https://github.com/YunqiuXu/Readings/blob/master/1710.09767%20-%20Meta%20Learning%20Shared%20Hierarchies.pdf)
 + [Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 
 

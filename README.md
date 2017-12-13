@@ -24,7 +24,25 @@
 + [1710.09767 - Meta Learning Shared Hierarchies, ICLR 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.09767%20-%20Meta%20Learning%20Shared%20Hierarchies.pdf)
 + [Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 
+-----
 
+## RL Related, to be done
+
++ NIPS 2017
+    + Successor Features for Transfer in Reinforcement Learning
+    + Bridging the Gap Between Value and Policy Based Reinforcement Learning
+    + EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
+    + Repeated Inverse Reinforcement Learning
+    + Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets
+    + Deep reinforcement learning from human preferences
+    + Imagination-Augmented Agents for Deep Reinforcement Learning
+    + Inverse Reward Design
+    + Natural Value Approximators: Learning when to Trust Past Estimates
+    + State Aware Imitation Learning
+    + Active Learning from Peers
+
+
+-----
 
 ## DL, ML, CV, etc.
 

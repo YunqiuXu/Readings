@@ -5,24 +5,24 @@
 
 ## RL Related
 
-+ [1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
-+ [1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
-+ [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
-+ [1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
-+ [1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)
-+ [1703.06907 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf)
++ [1502.05477 - Trust Region Policy Optimization, ICML 2015](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
++ [1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
++ [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
++ [1611.01779 - Learning to Act by Predicting the Future, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
++ [1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)
++ [1703.06907 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World, IROS 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf)
 + [1703.07326 - One-Shot Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.07326%20-%20One-Shot%20Imitation%20Learning.pdf)
 + [1703.09327 - DART- Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)
 + [1707.02747 - Robust Imitation of Diverse Behaviors](https://github.com/YunqiuXu/Readings/blob/master/1707.02747%20-%20Robust%20Imitation%20of%20Diverse%20Behaviors.pdf)
 + [1707.03374 - Imitation from Observation- Learning to Imitate Behaviors from Raw Video via Context Translation](https://github.com/YunqiuXu/Readings/blob/master/1707.03374%20-%20Imitation%20from%20Observation-%20Learning%20to%20Imitate%20Behaviors%20from%20Raw%20Video%20via%20Context%20Translation.pdf)
-+ [1707.05300 - Reverse Curriculum Generation for Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1707.05300%20-%20Reverse%20Curriculum%20Generation%20for%20Reinforcement%20Learning.pdf)
++ [1707.05300 - Reverse Curriculum Generation for Reinforcement Learning, CORL 2017](https://github.com/YunqiuXu/Readings/blob/master/1707.05300%20-%20Reverse%20Curriculum%20Generation%20for%20Reinforcement%20Learning.pdf)
 + [1709.04579 - Autonomous Extracting a Hierarchical Structure of Tasks in Reinforcement Learning and Multi-task Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1709.04579%20-%20Autonomous%20Extracting%20a%20Hierarchical%20Structure%20of%20Tasks%20in%20Reinforcement%20Learning%20and%20Multi-task%20Reinforcement%20Learning.pdf)
-+ [1709.04905 - One-Shot Visual Imitation Learning via Meta-Learning](https://github.com/YunqiuXu/Readings/blob/master/1709.04905%20-%20One-Shot%20Visual%20Imitation%20Learning%20via%20Meta-Learning.pdf)
-+ [1710.02298 - Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1710.02298%20-%20Rainbow:%20Combining%20Improvements%20in%20Deep%20Reinforcement%20Learning.pdf)
-+ [1710.03641 - Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments](https://github.com/YunqiuXu/Readings/blob/master/1710.03641%20-%20Continuous%20Adaptation%20via%20Meta-Learning%20in%20Nonstationary%20and%20Competitive%20Environments.pdf)
-+ [1710.09767 - Meta Learning Shared Hierarchies](https://github.com/YunqiuXu/Readings/blob/master/1710.09767%20-%20Meta%20Learning%20Shared%20Hierarchies.pdf)
-+ [Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
++ [1709.04905 - One-Shot Visual Imitation Learning via Meta-Learning, CORL 2017](https://github.com/YunqiuXu/Readings/blob/master/1709.04905%20-%20One-Shot%20Visual%20Imitation%20Learning%20via%20Meta-Learning.pdf)
++ [1710.02298 - Rainbow: Combining Improvements in Deep Reinforcement Learning, AAAI 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.02298%20-%20Rainbow:%20Combining%20Improvements%20in%20Deep%20Reinforcement%20Learning.pdf)
++ [1710.03641 - Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments, ICLR 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.03641%20-%20Continuous%20Adaptation%20via%20Meta-Learning%20in%20Nonstationary%20and%20Competitive%20Environments.pdf)
++ [1710.09767 - Meta Learning Shared Hierarchies, ICLR 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.09767%20-%20Meta%20Learning%20Shared%20Hierarchies.pdf)
++ [Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 
 
 

@@ -23,6 +23,7 @@
 + [1710.03641 - Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments, ICLR 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.03641%20-%20Continuous%20Adaptation%20via%20Meta-Learning%20in%20Nonstationary%20and%20Competitive%20Environments.pdf)
 + [1710.09767 - Meta Learning Shared Hierarchies, ICLR 2018](https://github.com/YunqiuXu/Readings/blob/master/1710.09767%20-%20Meta%20Learning%20Shared%20Hierarchies.pdf)
 + [Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
++ [An Efficient Approach to Model-Based Hierarchical Reinforcement Learning, AAAI 2017](https://github.com/YunqiuXu/Readings/blob/master/An%20Efficient%20Approach%20to%20Model-Based%20Hierarchical%20Reinforcement%20Learning.pdf)
 
 -----
 

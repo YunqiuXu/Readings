@@ -30,6 +30,11 @@
 
 ## RL Related, to be done
 
++ ICLR 2018
+    + DISTRIBUTED PRIORITIZED EXPERIENCE REPLAY
+    + Learning to Teach
+    + Zero-Shot Visual Imitation
+
 + NIPS 2017
     + Successor Features for Transfer in Reinforcement Learning
     + Bridging the Gap Between Value and Policy Based Reinforcement Learning
@@ -42,6 +47,18 @@
     + Natural Value Approximators: Learning when to Trust Past Estimates
     + State Aware Imitation Learning
     + Active Learning from Peers
+
++ CoRL 2017
+    + Burn-In Demonstrations for Multi-Modal Imitation Learning
+
++ ICML 2017
+    + Deep Transfer Learning with Joint Adaptation Networks
+    + Meta Networks
+    + Learned Optimizers that Scale and Generalize
+    + Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
+    + DARLA: Improving Zero-Shot Transfer in Reinforcement Learning
+    + End-to-End Differentiable Adversarial Imitation Learning
+    + Hierarchy Through Composition with Multitask
 
 
 -----

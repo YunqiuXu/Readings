@@ -6,14 +6,15 @@
 ## RL Related
 
 + [1502.05477 - Trust Region Policy Optimization, ICML 2015](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
-+ [1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
-+ [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [1611.01779 - Learning to Act by Predicting the Future, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
++ [1703.00837 - Meta Networks, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)
++ [1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, ICML 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)
 + [1703.06907 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World, IROS 2017](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf)
 + [1703.07326 - One-Shot Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.07326%20-%20One-Shot%20Imitation%20Learning.pdf)
 + [1703.08294 - Multi-Level Discovery of Deep Options](https://github.com/YunqiuXu/Readings/blob/master/1703.08294%20Multi-Level%20Discovery%20of%20Deep%20Options.pdf)
 + [1703.09327 - DART- Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
++ [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)
 + [1707.02747 - Robust Imitation of Diverse Behaviors](https://github.com/YunqiuXu/Readings/blob/master/1707.02747%20-%20Robust%20Imitation%20of%20Diverse%20Behaviors.pdf)
 + [1707.03374 - Imitation from Observation- Learning to Imitate Behaviors from Raw Video via Context Translation](https://github.com/YunqiuXu/Readings/blob/master/1707.03374%20-%20Imitation%20from%20Observation-%20Learning%20to%20Imitate%20Behaviors%20from%20Raw%20Video%20via%20Context%20Translation.pdf)
@@ -52,8 +53,8 @@
     + Burn-In Demonstrations for Multi-Modal Imitation Learning
 
 + ICML 2017
-    + Deep Transfer Learning with Joint Adaptation Networks
-    + Meta Networks
+    + ~~Deep Transfer Learning with Joint Adaptation Networks~~
+    + ~~Meta Networks~~
     + Learned Optimizers that Scale and Generalize
     + Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
     + DARLA: Improving Zero-Shot Transfer in Reinforcement Learning

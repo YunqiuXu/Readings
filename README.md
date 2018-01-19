@@ -15,6 +15,7 @@
 + [1703.08294 - Multi-Level Discovery of Deep Options](https://github.com/YunqiuXu/Readings/blob/master/1703.08294%20Multi-Level%20Discovery%20of%20Deep%20Options.pdf)
 + [1703.09327 - DART- Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning, ICLR 2017](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
++ [1704.03732 - Deep Q-learning from Demonstrations, AAAI 2018](https://github.com/YunqiuXu/Readings/blob/master/1704.03732%20-%20Deep%20Q-learning%20from%20Demonstrations.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)
 + [1707.02747 - Robust Imitation of Diverse Behaviors](https://github.com/YunqiuXu/Readings/blob/master/1707.02747%20-%20Robust%20Imitation%20of%20Diverse%20Behaviors.pdf)
 + [1707.03374 - Imitation from Observation- Learning to Imitate Behaviors from Raw Video via Context Translation](https://github.com/YunqiuXu/Readings/blob/master/1707.03374%20-%20Imitation%20from%20Observation-%20Learning%20to%20Imitate%20Behaviors%20from%20Raw%20Video%20via%20Context%20Translation.pdf)

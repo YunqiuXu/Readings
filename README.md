@@ -35,37 +35,8 @@
 
 -----
 
-## RL Related, to be done
-
-+ ICLR 2018
-    + DISTRIBUTED PRIORITIZED EXPERIENCE REPLAY
-    + Learning to Teach
-    + Zero-Shot Visual Imitation
-
-+ NIPS 2017
-    + Successor Features for Transfer in Reinforcement Learning
-    + Bridging the Gap Between Value and Policy Based Reinforcement Learning
-    + EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
-    + Repeated Inverse Reinforcement Learning
-    + Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets
-    + Deep reinforcement learning from human preferences
-    + Imagination-Augmented Agents for Deep Reinforcement Learning
-    + Inverse Reward Design
-    + Natural Value Approximators: Learning when to Trust Past Estimates
-    + State Aware Imitation Learning
-    + Active Learning from Peers
-
-+ CoRL 2017
-    + Burn-In Demonstrations for Multi-Modal Imitation Learning
-
-+ ICML 2017
-    + ~~Deep Transfer Learning with Joint Adaptation Networks~~
-    + ~~Meta Networks~~
-    + Learned Optimizers that Scale and Generalize
-    + Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
-    + DARLA: Improving Zero-Shot Transfer in Reinforcement Learning
-    + End-to-End Differentiable Adversarial Imitation Learning
-    + Hierarchy Through Composition with Multitask
+## Speech
++ [Deep Learning for Robotics - Pieter Abbeel - NIPS 2017 Keynotes](https://github.com/YunqiuXu/Readings/blob/master/Deep%20Learning%20for%20Robotics%20-%20Pieter%20Abbeel%20-%20NIPS%202017%20Keynotes.pdf)
 
 
 -----

@@ -7,7 +7,8 @@
 
 |Conf|Arxiv|Title|Tag|
 |-----|-----|-----|-----|
-|ICML 2015|1502.05477|Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)|-|
+|ICML 2015|1502.05477|[Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)|-|
+|ICLR 2017|1611.01779|[Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)|-|
 
 + [[ICML 2015] 1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
 + [[ICLR 2017] 1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)

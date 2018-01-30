@@ -5,11 +5,6 @@
 
 ## RL Related
 
-|Conf|Arxiv|Title|Tag|
-|-----|-----|-----|-----|
-|ICML 2015|1502.05477|[Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)|-|
-|ICLR 2017|1611.01779|[Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)|-|
-
 + [[ICML 2015] 1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
 + [[ICLR 2017] 1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
 + [[ICML 2017] 1703.00837 - Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)
@@ -21,6 +16,7 @@
 + [[CoRL 2017] - 1703.09327 - DART - Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [[ICLR 2017] 1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [[AAAI 2018] 1704.03732 - Deep Q-learning from Demonstrations](https://github.com/YunqiuXu/Readings/blob/master/1704.03732%20-%20Deep%20Q-learning%20from%20Demonstrations.pdf)
++ [[NIPS 2017] 1706.03741 - Deep Reinforcement Learning from Human Preferences](https://github.com/YunqiuXu/Readings/blob/master/1706.03741%20-%20Deep%20Reinforcement%20Learning%20from%20Human%20Preferences.pdf)
 + [[NIPS 2017] 1707.01495 - Hindsight Experience Replay](https://github.com/YunqiuXu/Readings/blob/master/1707.01495%20-%20Hindsight%20Experience%20Replay.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)
 + [[NIPS 2017] 1707.02747 - Robust Imitation of Diverse Behaviors](https://github.com/YunqiuXu/Readings/blob/master/1707.02747%20-%20Robust%20Imitation%20of%20Diverse%20Behaviors.pdf)

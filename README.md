@@ -16,6 +16,7 @@
 + [[CoRL 2017] - 1703.09327 - DART - Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [[ICLR 2017] 1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [[AAAI 2018] 1704.03732 - Deep Q-learning from Demonstrations](https://github.com/YunqiuXu/Readings/blob/master/1704.03732%20-%20Deep%20Q-learning%20from%20Demonstrations.pdf)
++ [[ICLR 2018] 1706.10295 - Noisy Networks for Exploration](https://github.com/YunqiuXu/Readings/blob/master/1706.10295%20-%20Noisy%20Networks%20for%20Exploration.pdf)
 + [[NIPS 2017] 1706.03741 - Deep Reinforcement Learning from Human Preferences](https://github.com/YunqiuXu/Readings/blob/master/1706.03741%20-%20Deep%20Reinforcement%20Learning%20from%20Human%20Preferences.pdf)
 + [[NIPS 2017] 1707.01495 - Hindsight Experience Replay](https://github.com/YunqiuXu/Readings/blob/master/1707.01495%20-%20Hindsight%20Experience%20Replay.pdf)
 + [1707.02286 - Emergence of Locomotion Behaviours in Rich Environments](https://github.com/YunqiuXu/Readings/blob/master/1707.02286%20-%20Emergence%20of%20Locomotion%20Behaviours%20in%20Rich%20Environments.pdf)

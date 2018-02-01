@@ -38,6 +38,7 @@
 + [[NIPS 2017] 1711.10314 - Crossmodal Attentive Skill Learner](https://github.com/YunqiuXu/Readings/blob/master/1711.10314%20-%20Crossmodal%20Attentive%20Skill%20Learner.pdf)
 + [[ICLR 2017] Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 + [[AAAI 2017] An Efficient Approach to Model-Based Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/An%20Efficient%20Approach%20to%20Model-Based%20Hierarchical%20Reinforcement%20Learning.pdf)
++ [[ICLR 2018] Reinforcement Learning From Imperfect Demonstration](https://github.com/YunqiuXu/Readings/blob/master/Reinforcement%20Learning%20From%20Imperfect%20Demonstration.pdf)
 
 -----
 

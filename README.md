@@ -36,6 +36,7 @@
 + [[NIPS 2017] 1711.03817 - Learning with Options that Terminate Off-Policy](https://github.com/YunqiuXu/Readings/blob/master/1711.03817%20-%20Learning%20with%20Options%20that%20Terminate%20Off-Policy.pdf)
 + [1711.06025 - Learning to Compare: Relation Network for Few-Shot Learning](https://github.com/YunqiuXu/Readings/blob/master/1711.06025%20-%20Learning%20to%20Compare-%20Relation%20Network%20for%20Few-Shot%20Learning.pdf)
 + [[NIPS 2017] 1711.10314 - Crossmodal Attentive Skill Learner](https://github.com/YunqiuXu/Readings/blob/master/1711.10314%20-%20Crossmodal%20Attentive%20Skill%20Learner.pdf)
++ [1802.01557 - One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning](https://github.com/YunqiuXu/Readings/blob/master/1802.01557%20-%20One-Shot%20Imitation%20from%20Observing%20Humans%20via%20Domain-Adaptive%20Meta-Learning.pdf)
 + [[ICLR 2017] Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 + [[AAAI 2017] An Efficient Approach to Model-Based Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/An%20Efficient%20Approach%20to%20Model-Based%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [[ICLR 2018] Reinforcement Learning From Imperfect Demonstration](https://github.com/YunqiuXu/Readings/blob/master/Reinforcement%20Learning%20From%20Imperfect%20Demonstration.pdf)

@@ -47,6 +47,32 @@
 ## Speech
 + [[NIPS 2017 Keynotes] Deep Learning for Robotics - Pieter Abbeel](https://github.com/YunqiuXu/Readings/blob/master/Deep%20Learning%20for%20Robotics%20-%20Pieter%20Abbeel%20-%20NIPS%202017%20Keynotes.pdf)
 
+-----
+## To read
++ [ICML 2017] 1703.02702 - Robust Adversarial Reinforcement Learning
++ [ICML 2017] 1706.05064 - Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
++ 1708.05866 - A Brief Survey of Deep Reinforcement Learning
++ [NIPS 2017] 1710.03592 - Meta Inverse Reinforcement Learning via Maximum Reward Sharing for Human Motion Analysis 
++ 1802.03596 - Deep Meta-Learning: Learning to Learn in the Concept Space
++ [ICLR 2018] 1802.09081 - Temporal Difference Models: Model-Free Deep RL for Model-Based Control
++ [ICLR 2018] 1803.00933 - Distributed Prioritized Experience Replay
++ [ICLR 2018] Extending Robust Adversarial Reinforcement Learning Considering Adaptation and Diversity
++ [ICLR 2018] Learning to Teach
++ [ICLR 2018] Learning an Embedding Space for Transferable Robot Skills
+
+-----
+## Currently no notes or skipped
++ 1706.09529 Learning to Learn: Meta-Critic Networks for Sample Efficient Learning
++ 1710.03463 - Learning to Generalize: Meta-Learning for Domain Generalization
++ 1712.00948 - Hierarchical Actor-Critic
++ [NIPS 2017] 1712.08266 - Federated Control with Hierarchical Multi-Agent Deep Reinforcement Learning
++ [ICLR 2018] 1801.08930 - Recasting Gradient-Based Meta-Learning as Hierarchical Bayes
++ 1802.07245 - Meta-Reinforcement Learning of Structured Exploration Strategies
++ 1802.09564 - Reinforcement and Imitation Learning for Diverse Visuomotor Skills
++ 1802.10567 - Learning by Playing - Solving Sparse Reward Tasks from Scratch
++ 1803.02999 - Reptile: a Scalable Metalearning Algorithm
++ [ICLR 2018] Zero-Shot Visual Imitation
+
 
 -----
 

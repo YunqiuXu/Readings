@@ -5,10 +5,12 @@
 
 ## RL Related
 
++ Tags: RL, IL, meta-learning, HRL, policy-based, value-based, model-based, model-free, on-policy, off-policy, etc.
+
 | Name | Conf | Arxiv | Tags |
 | --- | --- | --- | --- |
 | [Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf) | ICML 2015 | 1502.05477 | policy-based |
-| [Learning to Act by Predicting the Future]((https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)) | ICLR 2017 | 1611.01779 | VizDoom |
+| [Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf) | ICLR 2017 | 1611.01779 | VizDoom |
 
 + [[ICML 2017] 1703.00837 - Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)
 + [[ICML 2017] 1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
@@ -58,21 +60,26 @@
 + [NIPS 2017] 1710.03592 - Meta Inverse Reinforcement Learning via Maximum Reward Sharing for Human Motion Analysis 
 + 1802.03596 - Deep Meta-Learning: Learning to Learn in the Concept Space
 + [ICLR 2018] 1802.09081 - Temporal Difference Models: Model-Free Deep RL for Model-Based Control
++ 1802.10567 - Learning by Playing - Solving Sparse Reward Tasks from Scratch
 + [ICLR 2018] 1803.00933 - Distributed Prioritized Experience Replay
 + [ICLR 2018] Extending Robust Adversarial Reinforcement Learning Considering Adaptation and Diversity
 + [ICLR 2018] Learning to Teach
 + [ICLR 2018] Learning an Embedding Space for Transferable Robot Skills
 
+
 -----
-## Currently no notes or skipped
-+ 1706.09529 Learning to Learn: Meta-Critic Networks for Sample Efficient Learning
+## Currently no notes
++ 1706.09529 - Learning to Learn: Meta-Critic Networks for Sample Efficient Learning
 + 1710.03463 - Learning to Generalize: Meta-Learning for Domain Generalization
 + 1712.00948 - Hierarchical Actor-Critic
+
+
+-----
+## Skipped
 + [NIPS 2017] 1712.08266 - Federated Control with Hierarchical Multi-Agent Deep Reinforcement Learning
 + [ICLR 2018] 1801.08930 - Recasting Gradient-Based Meta-Learning as Hierarchical Bayes
 + 1802.07245 - Meta-Reinforcement Learning of Structured Exploration Strategies
 + 1802.09564 - Reinforcement and Imitation Learning for Diverse Visuomotor Skills
-+ 1802.10567 - Learning by Playing - Solving Sparse Reward Tasks from Scratch
 + 1803.02999 - Reptile: a Scalable Metalearning Algorithm
 + [ICLR 2018] Zero-Shot Visual Imitation
 

@@ -7,10 +7,9 @@
 
 | Name | Conf | Arxiv | Tags |
 | --- | --- | --- | --- |
-| Trust Region Policy Optimization | ICML 2015 | 1502.05477 | policy-based |
+| [Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf) | ICML 2015 | 1502.05477 | policy-based |
+| [Learning to Act by Predicting the Future]((https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)) | ICLR 2017 | 1611.01779 | VizDoom |
 
-+ [[ICML 2015] 1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
-+ [[ICLR 2017] 1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
 + [[ICML 2017] 1703.00837 - Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)
 + [[ICML 2017] 1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [[ICML 2017] 1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)

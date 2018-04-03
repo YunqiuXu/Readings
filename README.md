@@ -5,6 +5,10 @@
 
 ## RL Related
 
+| Name | Conf | Arxiv | Tags |
+| --- | --- | --- | --- |
+| Trust Region Policy Optimization | ICML 2015 | 1502.05477 | policy-based |
+
 + [[ICML 2015] 1502.05477 - Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf)
 + [[ICLR 2017] 1611.01779 - Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf)
 + [[ICML 2017] 1703.00837 - Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)

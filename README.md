@@ -11,12 +11,13 @@
 | --- | --- | --- | --- |
 | [Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf) | ICML 2015 | 1502.05477 | policy-based |
 | [Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf) | ICLR 2017 | 1611.01779 | VizDoom |
+| [Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf) | ICML 2017 | 1703.00837 | meta-learning, MetaNet, few-shot classification|
+| [FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf) | ICML 2017 | 1703.01161 | FeUDalNet, HRL|
+| [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf) | ICML 2017 | 1703.03400 | meta-learning, MAML |
+| [Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf) | IROS 2017 | 1703.06907 | sim to real, domain randomization |
+| [One-Shot Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.07326%20-%20One-Shot%20Imitation%20Learning.pdf)| NIPS 2017 | 1703.07326 | imitation, demonstration |
 
-+ [[ICML 2017] 1703.00837 - Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf)
-+ [[ICML 2017] 1703.01161 - FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)
-+ [[ICML 2017] 1703.03400 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.03400%20-%20Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.pdf)
-+ [[IROS 2017] 1703.06907 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://github.com/YunqiuXu/Readings/blob/master/1703.06907%20-%20Domain%20Randomization%20for%20Transferring%20Deep%20Neural%20Networks%20from%20Simulation%20to%20the%20Real%20World.pdf)
-+ [[NIPS 2017] 1703.07326 - One-Shot Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.07326%20-%20One-Shot%20Imitation%20Learning.pdf)
+
 + [1703.08294 - Multi-Level Discovery of Deep Options](https://github.com/YunqiuXu/Readings/blob/master/1703.08294%20Multi-Level%20Discovery%20of%20Deep%20Options.pdf)
 + [[CoRL 2017] - 1703.09327 - DART - Noise Injection for Robust Imitation Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.09327%20-%20DART-%20Noise%20Injection%20for%20Robust%20Imitation%20Learning.pdf)
 + [[ICLR 2017] 1704.03012 - Stochastic Neural Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1704.03012%20-%20Stochastic%20Neural%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf)

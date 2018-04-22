@@ -43,6 +43,7 @@
 + [[NIPS 2017] 1711.10314 - Crossmodal Attentive Skill Learner](https://github.com/YunqiuXu/Readings/blob/master/1711.10314%20-%20Crossmodal%20Attentive%20Skill%20Learner.pdf)
 + [1802.01557 - One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning](https://github.com/YunqiuXu/Readings/blob/master/1802.01557%20-%20One-Shot%20Imitation%20from%20Observing%20Humans%20via%20Domain-Adaptive%20Meta-Learning.pdf)
 + [1802.04821 - Evolved Policy Gradients](https://github.com/YunqiuXu/Readings/blob/master/1802.04821%20-%20Evolved%20Policy%20Gradients.pdf)
++ [1803.02999 - On First-Order Meta-Learning Algorithms](https://github.com/YunqiuXu/Readings/blob/master/1803.02999%20-%20On%20First-Order%20Meta-Learning%20Algorithms.pdf)
 + [[ICLR 2017] Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning](https://github.com/YunqiuXu/Readings/blob/master/Training%20Agent%20for%20First-Person%20Shooter%20Game%20with%20Actor-Critic%20Curriculum%20Learning.pdf)
 + [[AAAI 2017] An Efficient Approach to Model-Based Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/An%20Efficient%20Approach%20to%20Model-Based%20Hierarchical%20Reinforcement%20Learning.pdf)
 + [[ICLR 2018] Reinforcement Learning From Imperfect Demonstration](https://github.com/YunqiuXu/Readings/blob/master/Reinforcement%20Learning%20From%20Imperfect%20Demonstration.pdf)
@@ -80,7 +81,6 @@
 + [ICLR 2018] 1801.08930 - Recasting Gradient-Based Meta-Learning as Hierarchical Bayes
 + 1802.07245 - Meta-Reinforcement Learning of Structured Exploration Strategies
 + 1802.09564 - Reinforcement and Imitation Learning for Diverse Visuomotor Skills
-+ 1803.02999 - Reptile: a Scalable Metalearning Algorithm
 + [ICLR 2018] Zero-Shot Visual Imitation
 
 

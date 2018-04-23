@@ -10,6 +10,7 @@
 | Name | Conf | Arxiv | Tags |
 | --- | --- | --- | --- |
 | [Trust Region Policy Optimization](https://github.com/YunqiuXu/Readings/blob/master/1502.05477%20-%20Trust%20Region%20Policy%20Optimization.pdf) | ICML 2015 | 1502.05477 | policy-based |
+| [The Option-Critic Architecture](https://github.com/YunqiuXu/Readings/blob/master/1609.05140%20-%20The%20Option-Critic%20Architecture.pdf) | AAAI 2017 | 1609.05140 | HRL, option-critic |
 | [Learning to Act by Predicting the Future](https://github.com/YunqiuXu/Readings/blob/master/1611.01779%20-%20Learning%20to%20Act%20by%20Predicting%20the%20Future.pdf) | ICLR 2017 | 1611.01779 | VizDoom |
 | [Meta Networks](https://github.com/YunqiuXu/Readings/blob/master/1703.00837%20-%20Meta%20Networks.pdf) | ICML 2017 | 1703.00837 | meta-learning, MetaNet, few-shot classification|
 | [FeUdal Networks for Hierarchical Reinforcement Learning](https://github.com/YunqiuXu/Readings/blob/master/1703.01161%20-%20FeUdal%20Networks%20for%20Hierarchical%20Reinforcement%20Learning.pdf) | ICML 2017 | 1703.01161 | FeUDalNet, HRL|
